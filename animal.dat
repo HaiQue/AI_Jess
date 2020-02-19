@@ -1,0 +1,76 @@
+(node (name root) (type decision) (question "Ar sios ausines su lankeliu?") (yes-node node1) (no-node node2) (answer nil))
+
+(node (name node1) (type decision) (question "Ar sios ausines laidines?") (yes-node node9) (no-node node10) (answer nil))
+
+(node (name node10) (type decision) (question "Ar ausiniu tipas uzdengančios?") (yes-node node17) (no-node node18) (answer nil))
+
+(node (name node18) (type decision) (question "Ar ausines turi mikrofona?") (yes-node node21) (no-node node22) (answer nil))
+
+(node (name node21) (type decision) (question "Ar laido ilgis daugiau nei 2 metrai?") (yes-node gen21) (no-node gen22) (answer Sioje_grupeje_prekiu_nera?))
+(node (name gen21) (type answer) (question nil) (yes-node nil) (no-node nil) (answer Sioje_grupeje_prekiu_nera?))
+(node (name gen22) (type answer) (question nil) (yes-node nil) (no-node nil) (answer Sioje_grupeje_prekiu_nera?))
+
+(node (name node22) (type decision) (question "Ar laido ilgis daugiau nei 2 metrai?") (yes-node gen23) (no-node gen24) (answer Sioje_grupeje_prekiu_nera?))
+(node (name gen23) (type answer) (question nil) (yes-node nil) (no-node nil) (answer Sioje_grupeje_prekiu_nera?))
+(node (name gen24) (type answer) (question nil) (yes-node nil) (no-node nil) (answer Sioje_grupeje_prekiu_nera?))
+
+(node (name node17) (type decision) (question "Ar ausines turi mikrofona?") (yes-node node19) (no-node node20) (answer nil))
+
+(node (name node20) (type decision) (question "Ar laido ilgis daugiau nei 2 metrai?") (yes-node gen19) (no-node gen20) (answer Sioje_grupeje_prekiu_nera?))
+(node (name gen19) (type answer) (question nil) (yes-node nil) (no-node nil) (answer Ar_tai_Asus_ROG_Strix_Fusion_700_modelis??))
+(node (name gen20) (type answer) (question nil) (yes-node nil) (no-node nil) (answer Sioje_grupeje_prekiu_nera?))
+
+
+(node (name node19) (type decision) (question "Ar laido ilgis daugiau nei 2 metrai?") (yes-node gen17) (no-node gen18) (answer Ar_tai_Qoltec_White_ausines?))
+(node (name gen17) (type answer) (question nil) (yes-node nil) (no-node nil) (answer Ar_tai_Media-tec-Epsilon_bluetooth_v4.2_modelis?))
+(node (name gen18) (type answer) (question nil) (yes-node nil) (no-node nil) (answer Ar_tai_Qoltec_White_ausines?))
+
+(node (name node9) (type decision) (question "Ar ausiniu tipas uzdengančios?") (yes-node node11) (no-node node12) (answer nil))
+
+(node (name node12) (type decision) (question "Ar ausines turi mikrofona?") (yes-node node15) (no-node node16) (answer nil))
+
+(node (name node15) (type decision) (question "Ar laido ilgis daugiau nei 2 metrai?") (yes-node gen13) (no-node gen14) (answer Ar_tai_Art_AP-60Mb_modelis?))
+(node (name gen13) (type answer) (question nil) (yes-node nil) (no-node nil) (answer Ar_tai_Sven_AP_860V_modelis?))
+(node (name gen14) (type answer) (question nil) (yes-node nil) (no-node nil) (answer Ar_tai_Art_AP-60Mb_modelis?))
+
+(node (name node16) (type decision) (question "Ar laido ilgis daugiau nei 2 metrai?") (yes-node gen15) (no-node gen16) (answer Ar_tai_Gembird_MHP-123_modelis?))
+(node (name gen15) (type answer) (question nil) (yes-node nil) (no-node nil) (answer Ar_tai_Audio_Technika_ATH-M40X_modelis?))
+(node (name gen16) (type answer) (question nil) (yes-node nil) (no-node nil) (answer Ar_tai_Gembird_MHP-123_modelis?))
+
+(node (name node11) (type decision) (question "Ar ausines turi mikrofona?") (yes-node node13) (no-node node14) (answer nil))
+
+(node (name node13) (type decision) (question "Ar laido ilgis daugiau nei 2 metrai?") (yes-node gen9) (no-node gen10) (answer Ar_tai_A4Tech_Bloody_M550_modelis?))
+(node (name gen9) (type answer) (question nil) (yes-node nil) (no-node nil) (answer Ar_tai_Tracer_Battle_Heroes_gunman_modelis?))
+(node (name gen10) (type answer) (question nil) (yes-node nil) (no-node nil) (answer Ar_tai_A4Tech_Bloody_M550_modelis?))
+
+(node (name node14) (type decision) (question "Ar laido ilgis daugiau nei 2 metrai?") (yes-node gen11) (no-node gen12) (answer Ar_tai_Art_Ap-60A_modelis?))
+(node (name gen11) (type answer) (question nil) (yes-node nil) (no-node nil) (answer Ar_tai_Asus_TUF_Gaming_H5_modelis?))
+(node (name gen12) (type answer) (question nil) (yes-node nil) (no-node nil) (answer Ar_tai_Art_Ap-60A_modelis?))
+
+(node (name node2) (type decision) (question "Ar sios ausines laidines?") (yes-node node3) (no-node node4) (answer nil))
+
+(node (name node3) (type decision) (question "Ar ausiniu tipas gilumines?") (yes-node node7) (no-node node8) (answer nil))
+
+(node (name node7) (type decision) (question "Ar ausines turi mikrofona?") (yes-node gen5) (no-node gen6) (answer Ar_tai_A4T_Evo_E6_modelis?))
+(node (name gen5) (type answer) (question nil) (yes-node nil) (no-node nil) (answer Ar_tai_1More_E1009_modelis?))
+(node (name gen6) (type answer) (question nil) (yes-node nil) (no-node nil) (answer Ar_tai_A4T_Evo_E6_modelis?))
+
+(node (name node8) (type decision) (question "Ar ausines turi mikrofona?") (yes-node gen7) (no-node gen8) (answer Ar_tai_Sony_MDRAS210B_modelis?))
+(node (name gen7) (type answer) (question nil) (yes-node nil) (no-node nil) (answer Ar_tai_Acme_HE17B_modelis?))
+(node (name gen8) (type answer) (question nil) (yes-node nil) (no-node nil) (answer Ar_tai_Sony_MDRAS210B_modelis?))
+
+(node (name node4) (type decision) (question "Ar ausiniu tipas gilumines?") (yes-node node5) (no-node node6) (answer nil))
+
+(node (name node5) (type decision) (question "Ar ausines turi mikrofona?") (yes-node gen3) (no-node gen4) (answer Ar_tai_Razer_Hammerhead_ausines?))
+(node (name gen3) (type answer) (question nil) (yes-node nil) (no-node nil) (answer Ar_tai_Jabra_Evolve_75E_MS_Link_370_ausines?))
+(node (name gen4) (type answer) (question nil) (yes-node nil) (no-node nil) (answer Ar_tai_Razer_Hammerhead_ausines?))
+
+(node (name node6) (type decision) (question "Ar ausines turi mikrofona?") (yes-node gen1) (no-node gen2) (answer Ar_tai_Media-Tech_R-Phones_ausines))
+
+(node (name gen1) (type answer) (question nil) (yes-node nil) (no-node nil) (answer Ar_tai_Media-Tech_R-Phones_ausines))
+(node (name gen2) (type answer) (question nil) (yes-node nil) (no-node nil) (answer Sioje_grupeje_prekiu_nera?))
+
+
+
+
+(next-gensym-idx "18")
